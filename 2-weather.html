@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Check Weather</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌤️ Weather Checker</h1>
+    <nav>
+      <ul>
+       <li><a href="1-index.html">Home</a></li>
+        <li><a href="2-weather.html">Check Weather</a></li>
+        <li><a href="3-about.html">About</a></li>
+        <li><a href="4-contact.html">Contact Us</a></li>
+        <li><a href="5-login.html">Login / Sign Up</a></li>
+      </ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Enter a City Name</h2>
+      <input type="text" id="cityInput" placeholder="e.g. Tehran" />
+      <button onclick="getWeather()">Get Weather</button>
+
+      <div id="weatherResult" style="margin-top: 20px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Weather App. All rights reserved.</p>
+  </footer>
+
+  <script src="./2-weather.js"></script>
+</body>
+</html>
